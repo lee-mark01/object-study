@@ -78,15 +78,15 @@ object-study/
 **브랜치 형식**
 
 ```text
-study/이름/week{번호}
+이름/week{번호}
 ```
 
-예: `study/seunghee/week01`
+예: `seunghee/week01`
 
 **PR 제목 형식**
 
 ```text
-[Week 01] seunghee - 1~2장 학습 및 실습
+seunghee - week01
 ```
 
 **제출 규칙**
@@ -104,16 +104,16 @@ study/이름/week{번호}
 **형식**
 
 ```text
-타입: week번호 (본인이름) 변경 내용
+타입: 작업내용
 ```
 
 **예시**
 
 ```text
-study: week01 (seunghee) ch01-02 학습 및 실습
-docs: week01 (seunghee) ch01 학습 정리
-feat: week01 (seunghee) ch01 예제 구현
-refactor: week01 (seunghee) ch01 책임 분리
+study: ch01-02 학습 및 실습
+docs: ch01 학습 정리
+feat: ch01 예제 구현
+refactor: ch01 책임 분리
 ```
 
 | 타입 | 설명 |
@@ -149,11 +149,11 @@ git switch main
 git pull origin main
 
 # 2. 주차별 개인 브랜치 생성
-git switch -c study/seunghee/week01
+git switch -c seunghee/week01
 
 # 3. 학습 및 파일 작성 후 커밋
 git add seunghee/
-git commit -m "study: week01 (seunghee) ch01-02 학습 및 실습"
+git commit -m "study: ch01-02 학습 및 실습"
 
 # 4. 개인 브랜치 Push
 git push -u origin study/seunghee/week01
