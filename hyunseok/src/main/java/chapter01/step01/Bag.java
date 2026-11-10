@@ -19,10 +19,10 @@ public class Bag {
 
     /**
      * 이벤트에 당첨된 관람객
-     * @param invitationm
+     * @param invitation
      * @param amount
      */
-    public Bag(Invitation invitationm, long amount) {
+    public Bag(Invitation invitation, long amount) {
         this.invitation = invitation;
         this.amount = amount;
     }
