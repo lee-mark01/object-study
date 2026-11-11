@@ -12,5 +12,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("study.chapter02.step01.MainKt")
+    mainClass.set("study.chapter02.step04.MainKt")
 }
