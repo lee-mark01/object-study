@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "2.4.21"
+    application
 }
 
 repositories {
@@ -8,4 +9,8 @@ repositories {
 
 kotlin {
     jvmToolchain(21)
+}
+
+application {
+    mainClass.set("study.chapter02.step01.MainKt")
 }
