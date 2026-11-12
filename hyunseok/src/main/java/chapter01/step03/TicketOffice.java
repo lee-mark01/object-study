@@ -18,7 +18,7 @@ public class TicketOffice {
      */
     public TicketOffice(Long amount, Ticket... tickets) {
         this.amount = amount;
-        this.tickets.addAll(Arrays.asList(tickets)); //?
+        this.tickets.addAll(Arrays.asList(tickets));
     }
 
     /**
