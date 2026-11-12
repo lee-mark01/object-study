@@ -23,10 +23,15 @@ public class TicketOffice {
 
     /**
      * 관람객한테 티켓을 판매함
+     * 1. 돈을 받고
+     * 2. 티켓을 판다
+     * 3. 잔액이 부족하면 잔액 부족 메시지 반환됨
      * @param audience
      */
     public void sellTicketTo(Audience audience) {
-        plusAmount(audience.buy(getTicket()));
+        Long paid = audience.buy(tickets.get(0));
+        tickets.remove(0);
+        plusAmount(paid);
     }
 
     /**
