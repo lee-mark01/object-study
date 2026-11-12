@@ -14,6 +14,13 @@ public class PeriodCondition implements DiscountCondition {
         this.endTime = endTime;
     }
 
+    /**
+     * 1. 상영 날짜의 요일이 같고
+     * 2. 시작 시간 이후이고
+     * 3. 종료 시작 이전이면 true 반환
+     * @param screening
+     * @return
+     */
     public boolean isSatisfiedBy(Screening screening) {
         return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&
                 startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 &&
