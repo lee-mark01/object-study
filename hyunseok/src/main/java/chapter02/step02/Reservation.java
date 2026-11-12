@@ -1,0 +1,23 @@
+package chapter02.step02;
+
+/**
+ * 예매
+ */
+public class Reservation {
+    private Customer customer;
+    private Screening screening;
+    private Money fee;
+    private int audienceCount;
+
+    public Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
+        this.customer = customer;
+        this.screening = screening;
+        this.fee = fee;
+        this.audienceCount = audienceCount;
+    }
+
+    // 지불할 돈
+    public Money paid() {
+        return fee;
+    }
+}
