@@ -1,12 +1,12 @@
 package study.chapter01.step01;
 
 public class Ticket {
-    private Long fee;
+    private long fee;
 
     public Ticket(long fee){
         this.fee = fee;
     }
-    public Long getFee(){
+    public long getFee(){
         return fee;
     }
 }

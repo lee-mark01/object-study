@@ -10,10 +10,10 @@ import java.util.List;
 매표소 현금을 늘리거나 줄일 수 있다.
  */
 public class TicketOffice {
-    private Long amount;
+    private long amount;
     private List<Ticket> tickets = new ArrayList<>();
 
-    public TicketOffice (Long amount, Ticket ... tickets){
+    public TicketOffice (long amount, Ticket ... tickets){
         this.amount = amount;
         this.tickets.addAll(Arrays.asList(tickets));
     }

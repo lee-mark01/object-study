@@ -9,7 +9,7 @@ package study.chapter01.step01;
  */
 
 public class Bag {
-    private Long amount;
+    private long amount;
     private Invitation invitation;
     private Ticket ticket;
 
@@ -35,11 +35,11 @@ public class Bag {
         this.ticket = ticket;
     }
 
-    public void plusAmount(Long amount){
+    public void plusAmount(long amount){
         this.amount += amount;
     }
 
-    public void minusAmount(Long amount){
+    public void minusAmount(long amount){
         this.amount -= amount;
     }
 }
