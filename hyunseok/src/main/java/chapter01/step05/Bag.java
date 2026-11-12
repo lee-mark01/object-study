@@ -28,7 +28,7 @@ public class Bag {
     }
 
     /**
-     * received()는 티켓을 받으면 처리하는 프로세스만 가진다.
+     * receive()는 티켓을 받으면 처리하는 프로세스만 가진다.
      * @param ticket
      * @return
      */
@@ -44,7 +44,7 @@ public class Bag {
         return invitation != null;
     }
 
-    /* 관람객이 티켃을 소지하고 있다면 true를 반환 */
+    /* 관람객이 티켓을 소지하고 있다면 true를 반환 */
     private boolean hasTicket() {
         return ticket != null;
     }
