@@ -15,4 +15,9 @@ public class Reservation {
         this.fee = fee;
         this.audienceCount = audienceCount;
     }
+
+    // 지불할 돈
+    public Money paid() {
+        return fee;
+    }
 }
