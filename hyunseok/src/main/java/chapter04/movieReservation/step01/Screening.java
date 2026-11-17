@@ -1,7 +1,6 @@
-package chapter04.step01;
+package chapter04.movieReservation.step01;
 
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 
 public class Screening {
     private Movie movie;

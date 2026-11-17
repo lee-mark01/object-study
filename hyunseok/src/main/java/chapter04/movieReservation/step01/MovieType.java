@@ -1,4 +1,4 @@
-package chapter04.step01;
+package chapter04.movieReservation.step01;
 
 public enum MovieType {
     AMOUNT_DISCOUNT, // 금액 할인 정책

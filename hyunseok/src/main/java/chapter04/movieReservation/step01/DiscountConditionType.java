@@ -1,4 +1,4 @@
-package chapter04.step01;
+package chapter04.movieReservation.step01;
 
 public enum DiscountConditionType {
     SEQUENCE, // 순번 조건

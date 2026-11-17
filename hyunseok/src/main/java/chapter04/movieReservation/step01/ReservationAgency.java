@@ -1,4 +1,4 @@
-package chapter04.step01;
+package chapter04.movieReservation.step01;
 
 
 // 데이터 클래스들을 조합해서 영화 얘매 절차를 구현한다

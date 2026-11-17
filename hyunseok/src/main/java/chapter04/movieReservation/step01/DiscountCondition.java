@@ -1,4 +1,4 @@
-package chapter04.step01;
+package chapter04.movieReservation.step01;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;
