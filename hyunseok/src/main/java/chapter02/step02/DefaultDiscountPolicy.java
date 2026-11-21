@@ -21,7 +21,7 @@ public abstract class DefaultDiscountPolicy implements DiscountPolicy{
      * @param screening
      * @return
      */
-    public Money calculateDiscountAmount(Screening screening) {
+        public Money calculateDiscountAmount(Screening screening) {
         for(DiscountCondition each : conditions) {
             if(each.isSatisfiedBy(screening)) {
                 return getDiscountAmount(screening);
